@@ -1,0 +1,30 @@
+
+*{
+  overflow-x: hidden;
+}
+
+.fixed {
+  position: fixed;
+}
+.bg-blue-600 {
+  background-color: #1d4ed8; /* Adjust color as needed */
+}
+.bg-blue-800 {
+  background-color: #1e40af; /* Adjust color as needed */
+}
+
+@media (min-width: 629px) and (max-width: 1024px) {
+  .sidebar-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .sidebar-content ul {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+}
+
